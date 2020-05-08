@@ -1,0 +1,1053 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+}
+.header{
+	background-color: royalblue;
+	height:50px ;
+	width: 1400px;
+}
+
+ img{
+  margin:10px 0 ;
+   padding: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.imglleft
+{
+margin:10px 0 10px 80px;
+}
+
+ .line{
+ 	 position: absolute;
+  left: 350px;
+  top: 1px;
+  color: white;
+  font-size: 1em;
+   font-family:fantasy;
+
+ }
+
+  .button1 {
+  background-color: white;
+  border:1px solid transparent;
+  border-color:green;
+  color: green;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius:2px;
+  position: absolute;
+  left: 940px;
+  top:5px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: white;
+  border:1px solid transparent;
+  border-color:green;
+  color: green;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius:2px;
+  position: absolute;
+  left: 1030px;
+  top:5px;
+  cursor: pointer;
+}
+.button3 {
+  background-color: white;
+  border:1px solid transparent;
+  border-color:green;
+  color: green;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius:2px;
+  position: absolute;
+  left: 1130px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.fixed{
+  position:absolute;
+  left: 1px;
+  top:53px;
+  width: 1345px;
+  height: 90px;
+ background-color:white;
+ z-index: 1;
+ 
+}
+.img{
+width: 200px;
+height:90px;	
+float: left;
+padding:5px;
+margin: 1px 1px 1px 70px;
+  z-index: 1;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: absolute;
+  left: 550px;
+  top:30px;
+ z-index: 1;
+ 
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:grey;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none; 
+ border-radius: 30px;
+ font-family: fantasy;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+li a:hover:not(.active) {
+  background-color: royalblue;
+  color: white;
+}
+
+.active {
+  background-color: royalblue;
+  color: white;
+  font-family: fantasy;
+}
+ 
+
+.div4 .img1{
+ 	width: 1345px;
+ 	height: 460px;
+ 	position: absolute;
+  left: 1px;
+  top: 124px;
+   cursor: pointer;
+}
+.div5{
+  background-color:royalblue;
+  width: 1200px;
+  height: 40px;
+  position: absolute;
+  left: 80px;
+  top: 615px;
+}
+.marquee{
+  color: white;
+  font-size: 15px;
+  }
+ .g{
+  color:lime;
+   }
+ 
+ .b1{
+  color: blue;
+   }
+ .bluee{
+ 	
+ 	color: royalblue;
+ 	position: absolute;
+   left: 550px;
+   top: 700px;
+   font-family:fantasy;
+}
+.greeen{
+  
+  color:green;
+  font-size: 30px;
+  position: absolute;
+   left: 650px;
+   top: 723px;
+   font-family:fantasy;
+   font-weight: bold;
+}
+ 
+ 
+ .hr{
+ 	 border: 1px solid green;
+    width:30px;
+    position: absolute;
+   left: 610px;
+   top: 790px;
+ }
+ .img3{
+ 	width: 40px;
+ 	height: 40px;
+ 	position: absolute;
+   left: 645px;
+   top: 760px;
+
+ }
+ .hr1{
+ 	border: 1px solid green;
+    width:30px;
+    position: absolute;
+   left: 709px;
+   top: 790px;
+ }
+  .intro{
+
+  height:220px ;
+  width: 920px;
+  position: absolute;
+    left: 230px;
+    top: 820px;
+  }
+  
+ .intro .p1{
+ 	  color: grey;
+   font-size: 17px;	
+  font-family:fantasy;
+ text-align:justify;
+ 
+}
+ .intro .p2{
+ 	color: grey;
+ font-size: 17px;	
+font-family:fantasy;
+  text-align: justify;
+  position: absolute;
+    top: 100px;
+ }
+ .intro .p3{
+ 	color: grey;
+  font-size: 17px;	
+  font-family:fantasy;
+  text-align: justify;
+  position: absolute;
+    top: 240px;
+ }
+ .intro .p4{
+ 	color: grey;
+ font-size: 17px;	
+font-family:fantasy;
+text-align: justify;
+position: absolute;
+    top: 360px;
+ }
+.div6{
+	background-color:royalblue;
+	height:320px ;
+	width: 1345px;
+	position: absolute;
+    left: 1px;
+    top: 1350px;
+}
+.div6 .img4{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    left: 200px;
+    top: 60px;
+}
+.div6 .food{
+	color:white;
+	position: absolute;
+    left: 130px;
+    top: 90px;
+    font-size: 60px;
+  font-family:fantasy;
+
+}
+.p5{
+	color: white;
+	 font-size: 18px;
+    position: absolute;
+    left: 140px;
+    top: 190px;
+    font-family:fantasy;
+}
+.lime{
+	color: lime;
+	 font-size: 20px;
+	 position: absolute;
+    left: 170px;
+    top: 230px;
+     font-family:fantasy;
+    font-weight: bold;
+
+}
+.div6 .img5{
+	width: 50px;
+	height: 50px;
+	position:absolute;
+    left: 490px;
+    top: 60px;
+}
+.div6 .family{
+	color:white;
+	position: absolute;
+    left: 460px;
+    top: 90px;
+    font-size: 60px;
+   font-family:fantasy;
+
+}
+.p6{
+	color: white;
+	font-size: 18px;
+    position: absolute;
+    left: 450px;
+    top: 190px;
+     font-family:fantasy;
+}
+.lime1{
+	color: lime;
+	 font-size: 20px;
+	 position: absolute;
+    left: 470px;
+    top: 230px;
+     font-family:fantasy;
+    font-weight: bold;
+}
+.div6 .img6{
+	width: 50px;
+	height: 50px;
+	position:absolute;
+    left: 780px;
+    top: 60px;
+}
+.div6 .medical{
+	color:white;
+	position: absolute;
+    left: 730px;
+    top: 90px;
+    font-size: 60px;
+   font-family:fantasy;
+}
+.p7{
+	color: white;
+	font-size: 18px;
+    position: absolute;
+    left: 770px;
+    top: 190px;
+     font-family:fantasy;
+}
+.lime2{
+	color: lime;
+	 font-size: 20px;
+	 position: absolute;
+    left: 750px;
+    top: 230px;
+     font-family:fantasy;
+    font-weight: bold;
+}
+.div6 .img7{
+	width: 50px;
+	height: 50px;
+	position:absolute;
+    left: 1060px;
+    top: 60px;
+}
+.div6 .education{
+	color:white;
+	position: absolute;
+    left: 1000px;
+    top: 90px;
+    font-size: 60px;
+  font-family:fantasy;
+
+}
+.p8{
+	color: white;
+	font-size: 18px;
+    position: absolute;
+    left: 1050px;
+    top: 190px;
+     font-family:fantasy;
+}
+.lime3{
+	color: lime;
+	 font-size: 20px;
+	 position: absolute;
+    left: 1040px;
+    top: 230px;
+     font-family:fantasy;
+    font-weight: bold;
+}
+.blue
+{
+  color: royalblue;
+position: absolute;
+    left: 470px;
+    top: 1700px;
+    font-family:fantasy;
+}
+.green{
+  color: green;
+  position: absolute;
+    left: 639px;
+    top: 1723px;
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: bold;
+}
+.hr2{
+   border: 1px solid green;
+    width:40px;
+    position: absolute;
+   left: 570px;
+   top: 1790px;
+ }
+ .img8{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+   left: 620px;
+   top: 1760px;
+
+ }
+ .hr3{
+  border: 1px solid green;
+    width:40px;
+    position: absolute;
+   left: 685px;
+   top: 1790px;
+ }
+ .div7{
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 120px;
+    top: 1850px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+}
+ 
+ .div7 .img9{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div7 .sadqah{
+  color:royalblue;
+  position: absolute;
+    left: 90px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+
+ }
+ .div8{
+  border-style: solid;
+  border-color: white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 500px;
+    top: 1850px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+}
+ 
+ .div8 .img10{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div8 .welfare{
+  color:royalblue;
+  position: absolute;
+    left: 130px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+  
+ }
+ .div9{
+   border-style: solid;
+  border-color:white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 880px;
+    top: 1850px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+     
+    }
+ .div9 .img11{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div9 .med{
+  color:royalblue;
+  position: absolute;
+    left: 130px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+  
+ }
+ .div10{
+   border-style: solid;
+  border-color:white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 120px;
+    top: 2070px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+     
+    }
+ .div10 .img12{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div10 .dastar{
+  color:royalblue;
+  position: absolute;
+    left: 90px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+  
+ }
+ .div11{
+   border-style: solid;
+  border-color:white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 500px;
+    top: 2070px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+     
+    }
+ .div11 .img13{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div11 .ro{
+  color:royalblue;
+  position: absolute;
+    left: 130px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+  
+ }
+ .div12{
+   border-style: solid;
+  border-color:white;
+  background-color:white;
+  height:180px ;
+  width: 350px;
+  position: absolute;
+    left: 880px;
+    top: 2070px;
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+
+    }
+ .div12 .img14{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+   left: 129px;
+   top: 20px;
+    cursor: pointer;
+ }
+ .div12 .edu{
+  color:royalblue;
+  position: absolute;
+    left: 120px;
+    top: 110px;
+    font-size: 20px;
+  font-family:fantasy;
+  }
+  .div13{
+   border-style: solid;
+  border-color:white;
+  background-color:white;
+  height:320px ;
+  width: 1345px;
+  position: absolute;
+    left: 1px;
+    top: 2330px;
+  }
+  .div13 .mission{
+    color:royalblue;
+  position: absolute;
+    left: 120px;
+    top: 50px;
+    font-size: 23px;
+  font-family:fantasy;
+  }
+  .div13 .hr4{
+    border: 1px solid green;
+    width:45px;
+    position: absolute;
+   left: 120px;
+   top: 95px;
+    }
+  .div14{
+   border: 1px solid lightgrey;
+  background-color:whitesmoke;
+  height:70px ;
+  width: 350px;
+  position: absolute;
+    left: 120px;
+    top: 130px;
+    
+    }
+ .div14 .img15{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+   left: 10px;
+   top: 7px;
+ }
+ .div14 .hep{
+  color:royalblue;
+  position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 20px;
+  font-family:fantasy;
+  }
+   .div15{
+   border: 1px solid lightgrey ;
+  
+  background-color:whitesmoke;
+  height:70px ;
+  width: 350px;
+  position: absolute;
+    left: 500px;
+    top: 130px;
+    
+    }
+ .div15 .img16{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+   left: 10px;
+   top: 7px;
+ }
+ .div15 .house{
+  color:royalblue;
+  position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 20px;
+  font-family:fantasy;
+  }
+   .div16{
+   border:1px solid lightgrey ;
+  background-color:whitesmoke;
+  height:70px ;
+  width: 350px;
+  position: absolute;
+    left: 120px;
+    top: 220px;
+    
+    }
+ .div16 .img17{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+   left: 10px;
+   top: 7px;
+ }
+ .div16 .it{
+  color:royalblue;
+  position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 20px;
+  font-family:fantasy;
+  }
+   .div17{
+   border:  1px solid lightgrey;
+   background-color:whitesmoke;
+  height:70px ;
+  width: 350px;
+  position: absolute;
+    left: 500px;
+    top: 220px;
+    
+    }
+ .div17 .img18{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+   left: 10px;
+   top: 7px;
+ }
+ .div17 .thar{
+  color:royalblue;
+  position: absolute;
+    left: 80px;
+    top: 10px;
+    font-size: 20px;
+  font-family:fantasy;
+  }
+  .upcoming{
+     color:royalblue;
+  position: absolute;
+    left: 890px;
+    top: 50px;
+    font-size: 23px;
+  font-family:fantasy;
+  }
+  .hr5 {
+    border: 1px solid green;
+    width:50px;
+    position: absolute;
+   left: 890px;
+   top: 95px;
+ }
+ .div18{
+    border: solid white;
+   background-color:white;
+  height:200px ;
+  width: 240px;
+  position: absolute;
+    left: 885px;
+    top: 110px;
+ }
+ .div18 .p9{
+  color:grey;
+  font-size: 14px;
+  line-height: 25px;
+ position: absolute;
+    left: 1px;
+    top: 1px;
+     font-family:fantasy;
+   
+ }
+ .span{
+  color: blue
+}
+.hr6{
+   border: 1px solid green;
+    width:40px;
+    position: absolute;
+   left: 570px;
+   top: 2870px;
+ }
+ .img19{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+   left: 620px;
+   top: 2830px;
+
+ }
+ .hr7{
+  border: 1px solid green;
+    width:40px;
+    position: absolute;
+   left: 685px;
+   top: 2870px;
+ }
+ .blueee{
+  color: royalblue;
+  position: absolute;
+   left: 520px;
+   top: 2770px;
+  font-family: fantasy;
+ }
+ .greeeen{
+  color: green;
+  position: absolute;
+   left: 635px;
+   top: 2791px;
+   font-size:32px;
+   font-weight: bold;
+  font-family: fantasy;
+ }
+ .img20{
+  width: 230px;
+  height: 150px;
+  position: absolute;
+   left: 125px;
+   top: 2910px;
+
+}
+ 
+ .img21{
+  width: 230px;
+  height: 150px;
+  position: absolute;
+   left:357px;
+   top: 2910px;
+ }
+ .img22{
+  width: 230px;
+  height: 150px;
+  position: absolute;
+   left:589px;
+   top: 2910px;
+ }
+ .img23{
+  width: 230px;
+  height: 150px;
+  position: absolute;
+   left: 821px;
+   top: 2910px;
+ }
+ .img24{
+  width: 230px;
+  height: 150px;
+  position: absolute;
+   left: 1053px;
+   top: 2910px;
+ }
+ .footer{
+  border:1px solid #0e1215;
+   background-color:#0e1215;
+  
+  height:370px ;
+  width: 1345px;
+  position: absolute;
+    left: 1px;
+    top: 3250px;
+    }
+ .a{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 120px;
+    top:100px;
+     font-family: fantasy;
+     line-height: 1.6;
+    }
+.li{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:160px;
+     font-family: fantasy;
+     list-style: none;
+}
+
+  
+.li1{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 280px;
+    top:160px;
+     font-family: fantasy;
+      list-style: none;
+}
+.li2{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:190px;
+     font-family: fantasy;
+      list-style: none;
+}
+.li3{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:220px;
+     font-family: fantasy;
+      list-style: none;
+}
+.li4{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:250px;
+     font-family: fantasy;
+      list-style: none;
+}
+.li5{
+ color:grey;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:280px;
+     font-family: fantasy;
+      list-style: none;
+}
+.b{
+  color:white;
+  font-size: 17px;
+    position: absolute;
+    left: 510px;
+    top:60px;
+     font-family: fantasy;
+}
+.hr8{
+  color: green;
+  width: 50px;
+   position: absolute;
+    left: 510px;
+    top:95px;
+}
+.hr9{
+  color: grey;
+  width: 300px;
+   position: absolute;
+    left: 563px;
+    top:95px;
+}
+.c{
+  color:white;
+  font-size: 17px;
+    position: absolute;
+    left: 900px;
+    top:60px;
+     font-family: fantasy; 
+}
+.f{
+  width:30px; 
+  height:30px;
+   position: absolute;
+    left: 880px;
+    top:90px;
+     cursor: pointer;
+     border-radius: 25px;
+}
+.t{
+  width:30px; 
+  height:30px;
+   position: absolute;
+    left: 930px;
+    top:90px;
+     cursor: pointer;
+     border-radius: 25px;
+}
+.i{
+  width:30px; 
+  height:30px;
+   position: absolute;
+    left: 980px;
+    top:90px;
+     cursor: pointer;
+     border-radius: 25px;
+}
+.y{
+  width:30px; 
+  height:30px;
+   position: absolute;
+    left: 1030px;
+    top:90px;
+     cursor: pointer;
+     border-radius: 25px;
+}
+
+.cr{
+  border:1px solid royalblue;
+   background-color:royalblue;
+  height:50px ;
+  width: 1345px;
+  position: absolute;
+    left: 1px;
+    top:3620px;
+}
+.p10{
+   color:white;
+  font-size: 14px;
+    position: absolute;
+    left: 110px;
+    top:6px;
+     font-family: fantasy;
+}
+.gotop{
+  position:fixed;
+  bottom:8px;
+  right: 7px;
+  width:50px;
+  height: 50px; 
+  border-radius: 4px;
+}
+
+
